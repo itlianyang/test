@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1967959F750AD3B3122FDCAA /* Pods_test_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		294F422D63DC41B946590CB2 /* Pods-test_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_Example.debug.xcconfig"; path = "Target Support Files/Pods-test_Example/Pods-test_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2ACC32328F419B95D40E4502 /* test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = test.podspec; path = ../test.podspec; sourceTree = "<group>"; };
+		2ACC32328F419B95D40E4502 /* test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = test.podspec; path = ../test.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4739724C9C8F92B8E65EDD23 /* Pods-test_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_Example.release.xcconfig"; path = "Target Support Files/Pods-test_Example/Pods-test_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* test_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		729253C8DEB5044828DB6223 /* Pods-test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_Tests.debug.xcconfig"; path = "Target Support Files/Pods-test_Tests/Pods-test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E836D13D03246D31BE44CBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E836D13D03246D31BE44CBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		96F81239F38857DE30A749C3 /* Pods_test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9D8C395C2E578CF9BB3FEC /* Pods-test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_Tests.release.xcconfig"; path = "Target Support Files/Pods-test_Tests/Pods-test_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B0F96DB7CAF7EFE55BA655BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B0F96DB7CAF7EFE55BA655BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				729253C8DEB5044828DB6223 /* Pods-test_Tests.debug.xcconfig */,
 				9D9D8C395C2E578CF9BB3FEC /* Pods-test_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
